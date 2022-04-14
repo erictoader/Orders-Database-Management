@@ -1,0 +1,6 @@
+module:com.erictoader.ordersdatabasemanagement
+com.erictoader.ordersdatabasemanagement
+com.erictoader.ordersdatabasemanagement.BusinessLogic
+com.erictoader.ordersdatabasemanagement.Connection
+com.erictoader.ordersdatabasemanagement.DataAccess
+com.erictoader.ordersdatabasemanagement.Model

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.erictoader.ordersdatabasemanagement.ProductUpdateController">
+    <children>
+        <Pane layoutX="-6.0" layoutY="-7.0" prefHeight="413.0" prefWidth="313.0" style="-fx-background-color: #2b2d2f;">
+            <children>
+                <Button layoutX="84.0" layoutY="298.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="146.0" style="-fx-background-color: #202020; -fx-font-size: 16;" />
+                <Button layoutX="88.0" layoutY="302.0" mnemonicParsing="false" onAction="#updateProduct" prefHeight="57.0" prefWidth="138.0" style="-fx-background-color: #3a3d40; -fx-font-size: 16;" text="Update product" textFill="#e7e7e7" />
+                <TextField fx:id="u_name" layoutX="77.0" layoutY="72.0" promptText="Product name" />
+                <TextField fx:id="u_stock" layoutX="77.0" layoutY="134.0" promptText="Quantity in stock" />
+                <TextField fx:id="u_price" layoutX="77.0" layoutY="194.0" promptText="Price" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
